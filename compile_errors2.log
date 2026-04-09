@@ -1,0 +1,133 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.qldapm_L01:backend-api >---------------------
+[INFO] Building backend-api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ backend-api ---
+[INFO] Deleting C:\Bach_Khoa\Nam_Bar_2025_2026\QLDAPM\BoKument\BoKument\BoKument\BE\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ backend-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 33 source files with javac [debug parameters release 21] to target\classes
+[INFO] Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[48,17] cannot find symbol
+  symbol:   method setFileName(java.lang.String)
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[49,17] cannot find symbol
+  symbol:   method setOriginalFileName(java.lang.String)
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[50,17] cannot find symbol
+  symbol:   method setFileSize(long)
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[52,17] cannot find symbol
+  symbol:   method setStoragePath(java.lang.String)
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[53,17] cannot find symbol
+  symbol:   method setUser(com.qldapm_L01.backend_api.Entity.User)
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[62,54] cannot find symbol
+  symbol:   method findAllByUserId(int)
+  location: variable documentRepository of type com.qldapm_L01.backend_api.Repository.DocumentRepository
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[71,60] cannot find symbol
+  symbol:   method getStoragePath()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[77,24] cannot find symbol
+  symbol:   method getOriginalFileName()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[89,51] cannot find symbol
+  symbol:   method getStoragePath()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[100,57] incompatible types: java.lang.Long cannot be converted to java.util.UUID
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[104,21] cannot find symbol
+  symbol:   method getUser()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[113,38] incompatible types: java.util.UUID cannot be converted to java.lang.Long
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[114,38] cannot find symbol
+  symbol:   method getFileName()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[115,46] cannot find symbol
+  symbol:   method getOriginalFileName()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[116,38] cannot find symbol
+  symbol:   method getFileSize()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[118,41] cannot find symbol
+  symbol:   method getStoragePath()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[119,54] incompatible types: java.time.Instant cannot be converted to java.time.LocalDateTime
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[120,36] cannot find symbol
+  symbol:   method getUser()
+  location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[INFO] 18 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.491 s
+[INFO] Finished at: 2026-04-06T17:53:33+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.1:compile (default-compile) on project backend-api: Compilation failure: Compilation failure: 
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[48,17] cannot find symbol
+[ERROR]   symbol:   method setFileName(java.lang.String)
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[49,17] cannot find symbol
+[ERROR]   symbol:   method setOriginalFileName(java.lang.String)
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[50,17] cannot find symbol
+[ERROR]   symbol:   method setFileSize(long)
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[52,17] cannot find symbol
+[ERROR]   symbol:   method setStoragePath(java.lang.String)
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[53,17] cannot find symbol
+[ERROR]   symbol:   method setUser(com.qldapm_L01.backend_api.Entity.User)
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[62,54] cannot find symbol
+[ERROR]   symbol:   method findAllByUserId(int)
+[ERROR]   location: variable documentRepository of type com.qldapm_L01.backend_api.Repository.DocumentRepository
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[71,60] cannot find symbol
+[ERROR]   symbol:   method getStoragePath()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[77,24] cannot find symbol
+[ERROR]   symbol:   method getOriginalFileName()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[89,51] cannot find symbol
+[ERROR]   symbol:   method getStoragePath()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[100,57] incompatible types: java.lang.Long cannot be converted to java.util.UUID
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[104,21] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[113,38] incompatible types: java.util.UUID cannot be converted to java.lang.Long
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[114,38] cannot find symbol
+[ERROR]   symbol:   method getFileName()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[115,46] cannot find symbol
+[ERROR]   symbol:   method getOriginalFileName()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[116,38] cannot find symbol
+[ERROR]   symbol:   method getFileSize()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[118,41] cannot find symbol
+[ERROR]   symbol:   method getStoragePath()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[119,54] incompatible types: java.time.Instant cannot be converted to java.time.LocalDateTime
+[ERROR] /C:/Bach_Khoa/Nam_Bar_2025_2026/QLDAPM/BoKument/BoKument/BoKument/BE/src/main/java/com/qldapm_L01/backend_api/Service/Imp/DocumentServiceImp.java:[120,36] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable document of type com.qldapm_L01.backend_api.Entity.Document
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

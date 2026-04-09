@@ -1,0 +1,49 @@
+spring:
+  config:
+    # Load local .env during development; external env vars still override it.
+    import: optional:file:.env[.properties]
+
+  application:
+    name: backend-api
+
+  datasource:
+    url: ${DB_URL:${SPRING_DATASOURCE_URL}}
+    username: ${DB_USERNAME:${SPRING_DATASOURCE_USERNAME}}
+    password: ${DB_PASSWORD:${SPRING_DATASOURCE_PASSWORD}}
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+app:
+  storage:
+    max-file-size-bytes: 20971520  # 20MB
+    endpoint: ${S3_ENDPOINT:${APP_STORAGE_ENDPOINT}}
+    region: ${S3_REGION:${APP_STORAGE_REGION}}
+    bucket: ${S3_BUCKET:${APP_STORAGE_BUCKET}}
+    access-key: ${S3_ACCESS_KEY:${APP_STORAGE_ACCESS_KEY}}
+    secret-key: ${S3_SECRET_KEY:${APP_STORAGE_SECRET_KEY}}
+    signed-url-minutes: ${S3_SIGNED_URL_MINUTES:${APP_STORAGE_SIGNED_URL_MINUTES:15}}
+  upload-cleanup:
+    fixed-delay-ms: ${APP_UPLOAD_CLEANUP_FIXED_DELAY_MS:900000}
+    stale-minutes: ${APP_UPLOAD_CLEANUP_STALE_MINUTES:30}
+
+server:
+  address: 0.0.0.0
+  port: ${PORT:8080}
+  compression:
+    enabled: false
+
+jwt:
+  secret: ${JWT_SECRET}
+  expiration: ${JWT_EXPIRATION:86400000}
